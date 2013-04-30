@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940BF5E9171FA49B0041089B /* SDJSBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 940BF5E8171FA49B0041089B /* SDJSBlockWrapper.m */; };
+		943921BA1719B1EE00F63073 /* statusitem.png in Resources */ = {isa = PBXBuildFile; fileRef = 943921B61719B1EE00F63073 /* statusitem.png */; };
+		943921BB1719B1EE00F63073 /* statusitem_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 943921B71719B1EE00F63073 /* statusitem_pressed.png */; };
+		943921BC1719B1EE00F63073 /* statusitem_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943921B81719B1EE00F63073 /* statusitem_pressed@2x.png */; };
+		943921BD1719B1EE00F63073 /* statusitem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 943921B91719B1EE00F63073 /* statusitem@2x.png */; };
+		943921BF1719B66C00F63073 /* windows.icns in Resources */ = {isa = PBXBuildFile; fileRef = 943921BE1719B66C00F63073 /* windows.icns */; };
+		94454B33171B31AC003EF64E /* SDScreenProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94454B32171B31AC003EF64E /* SDScreenProxy.m */; };
+		94454B37171B4179003EF64E /* SDAlertWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94454B35171B4179003EF64E /* SDAlertWindowController.m */; };
+		94454B38171B4179003EF64E /* AlertWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94454B36171B4179003EF64E /* AlertWindow.xib */; };
+		94454B3C171B422C003EF64E /* SDAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 94454B3B171B422C003EF64E /* SDAlertWindow.m */; };
+		94454B3F171B479B003EF64E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94454B3E171B479B003EF64E /* QuartzCore.framework */; };
+		945B18091720FBB40067C834 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945B18081720FBB40067C834 /* WebKit.framework */; };
+		946B3AAF1721C5C800FB05F3 /* logwindow.html in Resources */ = {isa = PBXBuildFile; fileRef = 946B3AAE1721C5C800FB05F3 /* logwindow.html */; };
+		947E9955171CA9A9006F30AC /* coffee-script.js in Resources */ = {isa = PBXBuildFile; fileRef = 947E9953171CA99C006F30AC /* coffee-script.js */; };
+		947E9958171CEFB5006F30AC /* SDAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 947E9957171CEFB5006F30AC /* SDAPI.m */; };
+		947E995B171CF9DE006F30AC /* SDConfigLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 947E995A171CF9DE006F30AC /* SDConfigLoader.m */; };
+		947E995F171D18B6006F30AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 947E995E171D18B6006F30AC /* Credits.rtf */; };
+		94867DAC1719E5A200027457 /* underscore-min.js in Resources */ = {isa = PBXBuildFile; fileRef = 94867DAA1719E56600027457 /* underscore-min.js */; };
+		94873F2E17191F40000AC0A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94873F2D17191F40000AC0A6 /* Cocoa.framework */; };
+		94873F3817191F40000AC0A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94873F3617191F40000AC0A6 /* InfoPlist.strings */; };
+		94873F3A17191F40000AC0A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F3917191F40000AC0A6 /* main.m */; };
+		94873F4117191F40000AC0A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F4017191F40000AC0A6 /* AppDelegate.m */; };
+		94873F4417191F40000AC0A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94873F4217191F40000AC0A6 /* MainMenu.xib */; };
+		94873F5917192096000AC0A6 /* MASShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F5017192096000AC0A6 /* MASShortcut.m */; };
+		94873F5A17192096000AC0A6 /* MASShortcut+Monitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F5217192096000AC0A6 /* MASShortcut+Monitoring.m */; };
+		94873F5B17192096000AC0A6 /* MASShortcut+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F5417192096000AC0A6 /* MASShortcut+UserDefaults.m */; };
+		94873F5C17192096000AC0A6 /* MASShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F5617192096000AC0A6 /* MASShortcutView.m */; };
+		94873F5D17192096000AC0A6 /* MASShortcutView+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F5817192096000AC0A6 /* MASShortcutView+UserDefaults.m */; };
+		94873F60171920B4000AC0A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94873F5F171920B4000AC0A6 /* Carbon.framework */; };
+		94873F67171929A0000AC0A6 /* SDKeyBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F66171929A0000AC0A6 /* SDKeyBinder.m */; };
+		94873F6A17193270000AC0A6 /* SDKeyBindingTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F6917193270000AC0A6 /* SDKeyBindingTranslator.m */; };
+		94873F6D171937BC000AC0A6 /* SDWindowProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873F6C171937BC000AC0A6 /* SDWindowProxy.m */; };
+		9495B457171959B4002C9EF5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9495B456171959B4002C9EF5 /* JavaScriptCore.framework */; };
+		9495B45A17197396002C9EF5 /* SDUniversalAccessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9495B45917197396002C9EF5 /* SDUniversalAccessHelper.m */; };
+		94C85825171C551B007790F2 /* JSCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C85824171C551B007790F2 /* JSCocoa.framework */; };
+		94C85826171C55C6007790F2 /* JSCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94C85824171C551B007790F2 /* JSCocoa.framework */; };
+		94D07FB31723741000CF44E9 /* api.coffee in Resources */ = {isa = PBXBuildFile; fileRef = 94D07FB21723741000CF44E9 /* api.coffee */; };
+		94D07FB61723B16900CF44E9 /* SDAppProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D07FB51723B16900CF44E9 /* SDAppProxy.m */; };
+		94D07FBA1723BACB00CF44E9 /* SDAppStalker.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D07FB91723BACB00CF44E9 /* SDAppStalker.m */; };
+		94D07FBD1723C61C00CF44E9 /* SDEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D07FBC1723C61C00CF44E9 /* SDEventListener.m */; };
+		94D307FD1719FF0F00D392B1 /* SDOpenAtLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D307FC1719FF0F00D392B1 /* SDOpenAtLogin.m */; };
+		94DAFB511719B98500526003 /* SDLogWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DAFB501719B98500526003 /* SDLogWindowController.m */; };
+		94DAFB531719B99A00526003 /* LogWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DAFB521719B99A00526003 /* LogWindow.xib */; };
+		94E0964B171ED905002D8668 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E0964A171ED905002D8668 /* Sparkle.framework */; };
+		94E0964C171ED9D6002D8668 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94E0964A171ED905002D8668 /* Sparkle.framework */; };
+		94E0964E171EDBA6002D8668 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 94E0964D171EDBA6002D8668 /* dsa_pub.pem */; };
+		B94C68BF1725B7D0008CE994 /* DJRKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C68BC1725B7D0008CE994 /* DJRKeyboardEvents.m */; };
+		B94C68C31725B7E7008CE994 /* DJRKeyboardTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C68C21725B7E7008CE994 /* DJRKeyboardTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B969B0A61725BE4F00C11451 /* DJRPasteboardProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B969B0A51725BE4F00C11451 /* DJRPasteboardProxy.m */; };
+		B969B0AF1728141700C11451 /* NSPasteboard+SaveRestore.m in Sources */ = {isa = PBXBuildFile; fileRef = B969B0AE1728141700C11451 /* NSPasteboard+SaveRestore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94873F4C17192016000AC0A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94C85826171C55C6007790F2 /* JSCocoa.framework in CopyFiles */,
+				94E0964C171ED9D6002D8668 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		940BF5E7171FA49B0041089B /* SDJSBlockWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDJSBlockWrapper.h; sourceTree = "<group>"; };
+		940BF5E8171FA49B0041089B /* SDJSBlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDJSBlockWrapper.m; sourceTree = "<group>"; };
+		943921B61719B1EE00F63073 /* statusitem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusitem.png; sourceTree = "<group>"; };
+		943921B71719B1EE00F63073 /* statusitem_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusitem_pressed.png; sourceTree = "<group>"; };
+		943921B81719B1EE00F63073 /* statusitem_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusitem_pressed@2x.png"; sourceTree = "<group>"; };
+		943921B91719B1EE00F63073 /* statusitem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusitem@2x.png"; sourceTree = "<group>"; };
+		943921BE1719B66C00F63073 /* windows.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = windows.icns; path = "Graphics/app-icon/windows.icns"; sourceTree = SOURCE_ROOT; };
+		94454B31171B31AC003EF64E /* SDScreenProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDScreenProxy.h; sourceTree = "<group>"; };
+		94454B32171B31AC003EF64E /* SDScreenProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDScreenProxy.m; sourceTree = "<group>"; };
+		94454B34171B4179003EF64E /* SDAlertWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAlertWindowController.h; sourceTree = "<group>"; };
+		94454B35171B4179003EF64E /* SDAlertWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAlertWindowController.m; sourceTree = "<group>"; };
+		94454B36171B4179003EF64E /* AlertWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertWindow.xib; sourceTree = "<group>"; };
+		94454B3A171B422C003EF64E /* SDAlertWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAlertWindow.h; sourceTree = "<group>"; };
+		94454B3B171B422C003EF64E /* SDAlertWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAlertWindow.m; sourceTree = "<group>"; };
+		94454B3E171B479B003EF64E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		945B18081720FBB40067C834 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		946B3AAE1721C5C800FB05F3 /* logwindow.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = logwindow.html; sourceTree = "<group>"; };
+		947E9953171CA99C006F30AC /* coffee-script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "coffee-script.js"; sourceTree = "<group>"; };
+		947E9956171CEFB5006F30AC /* SDAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAPI.h; sourceTree = "<group>"; };
+		947E9957171CEFB5006F30AC /* SDAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAPI.m; sourceTree = "<group>"; };
+		947E9959171CF9DE006F30AC /* SDConfigLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDConfigLoader.h; sourceTree = "<group>"; };
+		947E995A171CF9DE006F30AC /* SDConfigLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDConfigLoader.m; sourceTree = "<group>"; };
+		947E995E171D18B6006F30AC /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = Zephyros/Credits.rtf; sourceTree = "<group>"; };
+		94867DAA1719E56600027457 /* underscore-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "underscore-min.js"; sourceTree = "<group>"; };
+		94873F2A17191F40000AC0A6 /* Zephyros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zephyros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94873F2D17191F40000AC0A6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		94873F3017191F40000AC0A6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		94873F3117191F40000AC0A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94873F3217191F40000AC0A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94873F3517191F40000AC0A6 /* Zephyros-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Zephyros-Info.plist"; path = "Zephyros/Zephyros-Info.plist"; sourceTree = "<group>"; };
+		94873F3717191F40000AC0A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94873F3917191F40000AC0A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94873F3B17191F40000AC0A6 /* Zephyros-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zephyros-Prefix.pch"; sourceTree = "<group>"; };
+		94873F3F17191F40000AC0A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94873F4017191F40000AC0A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94873F4317191F40000AC0A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		94873F4F17192096000AC0A6 /* MASShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcut.h; sourceTree = "<group>"; };
+		94873F5017192096000AC0A6 /* MASShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcut.m; sourceTree = "<group>"; };
+		94873F5117192096000AC0A6 /* MASShortcut+Monitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+Monitoring.h"; sourceTree = "<group>"; };
+		94873F5217192096000AC0A6 /* MASShortcut+Monitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+Monitoring.m"; sourceTree = "<group>"; };
+		94873F5317192096000AC0A6 /* MASShortcut+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+UserDefaults.h"; sourceTree = "<group>"; };
+		94873F5417192096000AC0A6 /* MASShortcut+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+UserDefaults.m"; sourceTree = "<group>"; };
+		94873F5517192096000AC0A6 /* MASShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcutView.h; sourceTree = "<group>"; };
+		94873F5617192096000AC0A6 /* MASShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcutView.m; sourceTree = "<group>"; };
+		94873F5717192096000AC0A6 /* MASShortcutView+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcutView+UserDefaults.h"; sourceTree = "<group>"; };
+		94873F5817192096000AC0A6 /* MASShortcutView+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcutView+UserDefaults.m"; sourceTree = "<group>"; };
+		94873F5F171920B4000AC0A6 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		94873F65171929A0000AC0A6 /* SDKeyBinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKeyBinder.h; sourceTree = "<group>"; };
+		94873F66171929A0000AC0A6 /* SDKeyBinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKeyBinder.m; sourceTree = "<group>"; };
+		94873F6817193270000AC0A6 /* SDKeyBindingTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKeyBindingTranslator.h; sourceTree = "<group>"; };
+		94873F6917193270000AC0A6 /* SDKeyBindingTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKeyBindingTranslator.m; sourceTree = "<group>"; };
+		94873F6B171937BC000AC0A6 /* SDWindowProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWindowProxy.h; sourceTree = "<group>"; };
+		94873F6C171937BC000AC0A6 /* SDWindowProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWindowProxy.m; sourceTree = "<group>"; };
+		9495B456171959B4002C9EF5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9495B45817197396002C9EF5 /* SDUniversalAccessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDUniversalAccessHelper.h; sourceTree = "<group>"; };
+		9495B45917197396002C9EF5 /* SDUniversalAccessHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDUniversalAccessHelper.m; sourceTree = "<group>"; };
+		94C85824171C551B007790F2 /* JSCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSCocoa.framework; path = ThirdParty/JSCocoa.framework; sourceTree = "<group>"; };
+		94D07FB21723741000CF44E9 /* api.coffee */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = api.coffee; sourceTree = "<group>"; };
+		94D07FB41723B16900CF44E9 /* SDAppProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAppProxy.h; sourceTree = "<group>"; };
+		94D07FB51723B16900CF44E9 /* SDAppProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAppProxy.m; sourceTree = "<group>"; };
+		94D07FB81723BACB00CF44E9 /* SDAppStalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAppStalker.h; sourceTree = "<group>"; };
+		94D07FB91723BACB00CF44E9 /* SDAppStalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAppStalker.m; sourceTree = "<group>"; };
+		94D07FBB1723C61C00CF44E9 /* SDEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDEventListener.h; sourceTree = "<group>"; };
+		94D07FBC1723C61C00CF44E9 /* SDEventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDEventListener.m; sourceTree = "<group>"; };
+		94D307FB1719FF0F00D392B1 /* SDOpenAtLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDOpenAtLogin.h; sourceTree = "<group>"; };
+		94D307FC1719FF0F00D392B1 /* SDOpenAtLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDOpenAtLogin.m; sourceTree = "<group>"; };
+		94DAFB4F1719B98500526003 /* SDLogWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLogWindowController.h; sourceTree = "<group>"; };
+		94DAFB501719B98500526003 /* SDLogWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLogWindowController.m; sourceTree = "<group>"; };
+		94DAFB521719B99A00526003 /* LogWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogWindow.xib; sourceTree = "<group>"; };
+		94E0964A171ED905002D8668 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ThirdParty/Sparkle.framework; sourceTree = "<group>"; };
+		94E0964D171EDBA6002D8668 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = AutoUpdating/dsa_pub.pem; sourceTree = SOURCE_ROOT; };
+		B94C68BB1725B7D0008CE994 /* DJRKeyboardEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardEvents.h; sourceTree = "<group>"; };
+		B94C68BC1725B7D0008CE994 /* DJRKeyboardEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRKeyboardEvents.m; sourceTree = "<group>"; };
+		B94C68C11725B7E7008CE994 /* DJRKeyboardTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRKeyboardTools.h; sourceTree = "<group>"; };
+		B94C68C21725B7E7008CE994 /* DJRKeyboardTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRKeyboardTools.m; sourceTree = "<group>"; };
+		B969B0A41725BE4F00C11451 /* DJRPasteboardProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJRPasteboardProxy.h; sourceTree = "<group>"; };
+		B969B0A51725BE4F00C11451 /* DJRPasteboardProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJRPasteboardProxy.m; sourceTree = "<group>"; };
+		B969B0AD1728141700C11451 /* NSPasteboard+SaveRestore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPasteboard+SaveRestore.h"; sourceTree = "<group>"; };
+		B969B0AE1728141700C11451 /* NSPasteboard+SaveRestore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPasteboard+SaveRestore.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94873F2717191F40000AC0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945B18091720FBB40067C834 /* WebKit.framework in Frameworks */,
+				94454B3F171B479B003EF64E /* QuartzCore.framework in Frameworks */,
+				9495B457171959B4002C9EF5 /* JavaScriptCore.framework in Frameworks */,
+				94873F60171920B4000AC0A6 /* Carbon.framework in Frameworks */,
+				94873F2E17191F40000AC0A6 /* Cocoa.framework in Frameworks */,
+				94C85825171C551B007790F2 /* JSCocoa.framework in Frameworks */,
+				94E0964B171ED905002D8668 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943921B41719AF5900F63073 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				947E9956171CEFB5006F30AC /* SDAPI.h */,
+				947E9957171CEFB5006F30AC /* SDAPI.m */,
+				94D07FB81723BACB00CF44E9 /* SDAppStalker.h */,
+				94D07FB91723BACB00CF44E9 /* SDAppStalker.m */,
+				947E9959171CF9DE006F30AC /* SDConfigLoader.h */,
+				947E995A171CF9DE006F30AC /* SDConfigLoader.m */,
+				94873F65171929A0000AC0A6 /* SDKeyBinder.h */,
+				94873F66171929A0000AC0A6 /* SDKeyBinder.m */,
+				94D07FBB1723C61C00CF44E9 /* SDEventListener.h */,
+				94D07FBC1723C61C00CF44E9 /* SDEventListener.m */,
+				940BF5E7171FA49B0041089B /* SDJSBlockWrapper.h */,
+				940BF5E8171FA49B0041089B /* SDJSBlockWrapper.m */,
+				94D07FB71723BAAE00CF44E9 /* Proxies */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		943921B51719B1E600F63073 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				943921BE1719B66C00F63073 /* windows.icns */,
+				943921B61719B1EE00F63073 /* statusitem.png */,
+				943921B71719B1EE00F63073 /* statusitem_pressed.png */,
+				943921B81719B1EE00F63073 /* statusitem_pressed@2x.png */,
+				943921B91719B1EE00F63073 /* statusitem@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		94454B39171B421D003EF64E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94454B3A171B422C003EF64E /* SDAlertWindow.h */,
+				94454B3B171B422C003EF64E /* SDAlertWindow.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		94873F2117191F40000AC0A6 = {
+			isa = PBXGroup;
+			children = (
+				94873F3517191F40000AC0A6 /* Zephyros-Info.plist */,
+				947E995E171D18B6006F30AC /* Credits.rtf */,
+				94873F3317191F40000AC0A6 /* Zephyros */,
+				94873F2C17191F40000AC0A6 /* Frameworks */,
+				94873F2B17191F40000AC0A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94873F2B17191F40000AC0A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94873F2A17191F40000AC0A6 /* Zephyros.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94873F2C17191F40000AC0A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945B18081720FBB40067C834 /* WebKit.framework */,
+				94E0964A171ED905002D8668 /* Sparkle.framework */,
+				94C85824171C551B007790F2 /* JSCocoa.framework */,
+				94454B3E171B479B003EF64E /* QuartzCore.framework */,
+				9495B456171959B4002C9EF5 /* JavaScriptCore.framework */,
+				94873F5F171920B4000AC0A6 /* Carbon.framework */,
+				94873F2D17191F40000AC0A6 /* Cocoa.framework */,
+				94873F2F17191F40000AC0A6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94873F2F17191F40000AC0A6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94873F3017191F40000AC0A6 /* AppKit.framework */,
+				94873F3117191F40000AC0A6 /* CoreData.framework */,
+				94873F3217191F40000AC0A6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		94873F3317191F40000AC0A6 /* Zephyros */ = {
+			isa = PBXGroup;
+			children = (
+				94873F631719223F000AC0A6 /* Third Party */,
+				94873F6217192236000AC0A6 /* XIBs */,
+				94873F611719222D000AC0A6 /* Controllers */,
+				94454B39171B421D003EF64E /* Views */,
+				943921B41719AF5900F63073 /* API */,
+				94873F6417192987000AC0A6 /* Helpers */,
+				943921B51719B1E600F63073 /* Graphics */,
+				94873F3417191F40000AC0A6 /* Supporting Files */,
+			);
+			path = Zephyros;
+			sourceTree = "<group>";
+		};
+		94873F3417191F40000AC0A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				946B3AAE1721C5C800FB05F3 /* logwindow.html */,
+				94E0964D171EDBA6002D8668 /* dsa_pub.pem */,
+				94D07FB21723741000CF44E9 /* api.coffee */,
+				947E9953171CA99C006F30AC /* coffee-script.js */,
+				94867DAA1719E56600027457 /* underscore-min.js */,
+				94873F3617191F40000AC0A6 /* InfoPlist.strings */,
+				94873F3917191F40000AC0A6 /* main.m */,
+				94873F3B17191F40000AC0A6 /* Zephyros-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94873F5E1719209B000AC0A6 /* Global Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				94873F4F17192096000AC0A6 /* MASShortcut.h */,
+				94873F5017192096000AC0A6 /* MASShortcut.m */,
+				94873F5117192096000AC0A6 /* MASShortcut+Monitoring.h */,
+				94873F5217192096000AC0A6 /* MASShortcut+Monitoring.m */,
+				94873F5317192096000AC0A6 /* MASShortcut+UserDefaults.h */,
+				94873F5417192096000AC0A6 /* MASShortcut+UserDefaults.m */,
+				94873F5517192096000AC0A6 /* MASShortcutView.h */,
+				94873F5617192096000AC0A6 /* MASShortcutView.m */,
+				94873F5717192096000AC0A6 /* MASShortcutView+UserDefaults.h */,
+				94873F5817192096000AC0A6 /* MASShortcutView+UserDefaults.m */,
+			);
+			name = "Global Shortcuts";
+			path = ../ThirdParty/MASShortcut;
+			sourceTree = "<group>";
+		};
+		94873F611719222D000AC0A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94873F3F17191F40000AC0A6 /* AppDelegate.h */,
+				94873F4017191F40000AC0A6 /* AppDelegate.m */,
+				94DAFB4F1719B98500526003 /* SDLogWindowController.h */,
+				94DAFB501719B98500526003 /* SDLogWindowController.m */,
+				94454B34171B4179003EF64E /* SDAlertWindowController.h */,
+				94454B35171B4179003EF64E /* SDAlertWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		94873F6217192236000AC0A6 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				94873F4217191F40000AC0A6 /* MainMenu.xib */,
+				94DAFB521719B99A00526003 /* LogWindow.xib */,
+				94454B36171B4179003EF64E /* AlertWindow.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		94873F631719223F000AC0A6 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				94873F5E1719209B000AC0A6 /* Global Shortcuts */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		94873F6417192987000AC0A6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B94C68BA1725B7B2008CE994 /* Selection */,
+				94873F6817193270000AC0A6 /* SDKeyBindingTranslator.h */,
+				94873F6917193270000AC0A6 /* SDKeyBindingTranslator.m */,
+				9495B45817197396002C9EF5 /* SDUniversalAccessHelper.h */,
+				9495B45917197396002C9EF5 /* SDUniversalAccessHelper.m */,
+				94D307FB1719FF0F00D392B1 /* SDOpenAtLogin.h */,
+				94D307FC1719FF0F00D392B1 /* SDOpenAtLogin.m */,
+				B969B0AD1728141700C11451 /* NSPasteboard+SaveRestore.h */,
+				B969B0AE1728141700C11451 /* NSPasteboard+SaveRestore.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		94D07FB71723BAAE00CF44E9 /* Proxies */ = {
+			isa = PBXGroup;
+			children = (
+				94873F6B171937BC000AC0A6 /* SDWindowProxy.h */,
+				94873F6C171937BC000AC0A6 /* SDWindowProxy.m */,
+				94454B31171B31AC003EF64E /* SDScreenProxy.h */,
+				94454B32171B31AC003EF64E /* SDScreenProxy.m */,
+				94D07FB41723B16900CF44E9 /* SDAppProxy.h */,
+				94D07FB51723B16900CF44E9 /* SDAppProxy.m */,
+				B969B0A41725BE4F00C11451 /* DJRPasteboardProxy.h */,
+				B969B0A51725BE4F00C11451 /* DJRPasteboardProxy.m */,
+			);
+			name = Proxies;
+			sourceTree = "<group>";
+		};
+		B94C68BA1725B7B2008CE994 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				B94C68C11725B7E7008CE994 /* DJRKeyboardTools.h */,
+				B94C68C21725B7E7008CE994 /* DJRKeyboardTools.m */,
+				B94C68BB1725B7D0008CE994 /* DJRKeyboardEvents.h */,
+				B94C68BC1725B7D0008CE994 /* DJRKeyboardEvents.m */,
+			);
+			name = Selection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94873F2917191F40000AC0A6 /* Zephyros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94873F4717191F40000AC0A6 /* Build configuration list for PBXNativeTarget "Zephyros" */;
+			buildPhases = (
+				94873F2617191F40000AC0A6 /* Sources */,
+				94873F2717191F40000AC0A6 /* Frameworks */,
+				94873F2817191F40000AC0A6 /* Resources */,
+				94873F4C17192016000AC0A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zephyros;
+			productName = Windows;
+			productReference = 94873F2A17191F40000AC0A6 /* Zephyros.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94873F2217191F40000AC0A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Giant Robot Software";
+			};
+			buildConfigurationList = 94873F2517191F40000AC0A6 /* Build configuration list for PBXProject "Zephyros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94873F2117191F40000AC0A6;
+			productRefGroup = 94873F2B17191F40000AC0A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94873F2917191F40000AC0A6 /* Zephyros */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94873F2817191F40000AC0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94873F3817191F40000AC0A6 /* InfoPlist.strings in Resources */,
+				94873F4417191F40000AC0A6 /* MainMenu.xib in Resources */,
+				943921BA1719B1EE00F63073 /* statusitem.png in Resources */,
+				943921BB1719B1EE00F63073 /* statusitem_pressed.png in Resources */,
+				943921BC1719B1EE00F63073 /* statusitem_pressed@2x.png in Resources */,
+				943921BD1719B1EE00F63073 /* statusitem@2x.png in Resources */,
+				943921BF1719B66C00F63073 /* windows.icns in Resources */,
+				94DAFB531719B99A00526003 /* LogWindow.xib in Resources */,
+				94867DAC1719E5A200027457 /* underscore-min.js in Resources */,
+				947E9955171CA9A9006F30AC /* coffee-script.js in Resources */,
+				94454B38171B4179003EF64E /* AlertWindow.xib in Resources */,
+				947E995F171D18B6006F30AC /* Credits.rtf in Resources */,
+				94E0964E171EDBA6002D8668 /* dsa_pub.pem in Resources */,
+				946B3AAF1721C5C800FB05F3 /* logwindow.html in Resources */,
+				94D07FB31723741000CF44E9 /* api.coffee in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94873F2617191F40000AC0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94873F3A17191F40000AC0A6 /* main.m in Sources */,
+				94873F4117191F40000AC0A6 /* AppDelegate.m in Sources */,
+				94873F5917192096000AC0A6 /* MASShortcut.m in Sources */,
+				94873F5A17192096000AC0A6 /* MASShortcut+Monitoring.m in Sources */,
+				94873F5B17192096000AC0A6 /* MASShortcut+UserDefaults.m in Sources */,
+				94873F5C17192096000AC0A6 /* MASShortcutView.m in Sources */,
+				94873F5D17192096000AC0A6 /* MASShortcutView+UserDefaults.m in Sources */,
+				94873F67171929A0000AC0A6 /* SDKeyBinder.m in Sources */,
+				94873F6A17193270000AC0A6 /* SDKeyBindingTranslator.m in Sources */,
+				94873F6D171937BC000AC0A6 /* SDWindowProxy.m in Sources */,
+				9495B45A17197396002C9EF5 /* SDUniversalAccessHelper.m in Sources */,
+				94DAFB511719B98500526003 /* SDLogWindowController.m in Sources */,
+				94D307FD1719FF0F00D392B1 /* SDOpenAtLogin.m in Sources */,
+				94454B33171B31AC003EF64E /* SDScreenProxy.m in Sources */,
+				94454B37171B4179003EF64E /* SDAlertWindowController.m in Sources */,
+				94454B3C171B422C003EF64E /* SDAlertWindow.m in Sources */,
+				947E9958171CEFB5006F30AC /* SDAPI.m in Sources */,
+				947E995B171CF9DE006F30AC /* SDConfigLoader.m in Sources */,
+				940BF5E9171FA49B0041089B /* SDJSBlockWrapper.m in Sources */,
+				94D07FB61723B16900CF44E9 /* SDAppProxy.m in Sources */,
+				94D07FBA1723BACB00CF44E9 /* SDAppStalker.m in Sources */,
+				94D07FBD1723C61C00CF44E9 /* SDEventListener.m in Sources */,
+				B94C68BF1725B7D0008CE994 /* DJRKeyboardEvents.m in Sources */,
+				B94C68C31725B7E7008CE994 /* DJRKeyboardTools.m in Sources */,
+				B969B0A61725BE4F00C11451 /* DJRPasteboardProxy.m in Sources */,
+				B969B0AF1728141700C11451 /* NSPasteboard+SaveRestore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94873F3617191F40000AC0A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94873F3717191F40000AC0A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94873F4217191F40000AC0A6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94873F4317191F40000AC0A6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94873F4517191F40000AC0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94873F4617191F40000AC0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94873F4817191F40000AC0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ThirdParty\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zephyros/Zephyros-Prefix.pch";
+				INFOPLIST_FILE = "Zephyros/Zephyros-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94873F4917191F40000AC0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ThirdParty\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zephyros/Zephyros-Prefix.pch";
+				INFOPLIST_FILE = "Zephyros/Zephyros-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94873F2517191F40000AC0A6 /* Build configuration list for PBXProject "Zephyros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94873F4517191F40000AC0A6 /* Debug */,
+				94873F4617191F40000AC0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94873F4717191F40000AC0A6 /* Build configuration list for PBXNativeTarget "Zephyros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94873F4817191F40000AC0A6 /* Debug */,
+				94873F4917191F40000AC0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94873F2217191F40000AC0A6 /* Project object */;
+}

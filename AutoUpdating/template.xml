@@ -1,0 +1,10 @@
+<item>
+  <title>Version <%version%></title>
+  <sparkle:releaseNotesLink>https://github.com/sdegutis/zephyros#change-log</sparkle:releaseNotesLink>
+  <pubDate><%date%></pubDate>
+  <enclosure url="https://raw.github.com/sdegutis/zephyros/master/Builds/Zephyros-<%version%>.app.tar.gz"
+             sparkle:version="<%version%>"
+             sparkle:dsaSignature="<%signature%>"
+             length="<%filesize%>"
+             type="application/octet-stream" />
+</item>
