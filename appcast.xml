@@ -6,6 +6,17 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 2.5</title>
+      <description>
+        <![CDATA[
+                 <h3>Windows.app (aka Zephyros) is looking for a new owner.</h3>
+                 <h4>Want to take it over? Fork <a href="https://github.com/sdegutis/zephyros">the github repo</a> and let me know via <a href="https://github.com/sdegutis/zephyros/issues/new">an issue</a>.</h4>
+        ]]>
+      </description>
+      <pubDate>Fri May 3 14:20:44 CDT 2013</pubDate>
+      <enclosure url="https://raw.github.com/sdegutis/zephyros/master/Builds/Zephyros-2.5.app.tar.gz" sparkle:version="2.5" sparkle:dsaSignature="MC0CFFj7KP2/QU6vMN91SkFQ45uKkPH3AhUApuGGQNJs5hCSaSrEHOmVrqpOR9E=" length="1309752" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 2.4</title>
       <sparkle:releaseNotesLink>https://github.com/sdegutis/zephyros#change-log</sparkle:releaseNotesLink>
       <pubDate>Tue Apr 30 13:02:12 CDT 2013</pubDate>
