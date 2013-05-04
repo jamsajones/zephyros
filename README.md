@@ -1,3 +1,9 @@
+**Update:** This repo needs a new owner.
+
+Want it to be you? Fork it and notify me through [a new issue](https://github.com/sdegutis/zephyros/issues/new?title=New Owner).
+
+***
+
 # Zephyros
 
 > As Odysseus climbed onto the shore, he opened up his MBP and began to write an email to a mailing list about how terrible his adventure had been, and how he'd almost been drowned by the sea, and how beautiful yet deadly was the sound of the Sirens.
