@@ -1,6 +1,6 @@
 **Update:** This repo needs a new owner.
 
-Want it to be you? Fork it and notify me through [a new issue](https://github.com/sdegutis/zephyros/issues/new?title=New Owner).
+Want it to be you? Fork it and notify me through [a new issue](https://github.com/sdegutis/zephyros/issues/new?title=New Owner&body=Hey @sdegutis, I forked the repo, make me the new owner.).
 
 ***
 
